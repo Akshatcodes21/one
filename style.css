@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+header{
+    background: rgb(0,0,0);
+   
+}
+
+#gold-logo img{
+    height: 33px;
+    width: 33px;
+    padding: 5px 15px;
+}
+#gold-logo h2{
+    font-size: 15px;
+    color: #DBB807;
+    margin-left: 9px;
+}
+ul li a:hover{
+    color:#E0AB24 ;
+    border-top: 2px solid #fff;
+    transition: .5s;
+
+}
+ul {
+    left: 450px;
+    list-style: none;
+    text-align: center;
+    margin-top: -50px;
+    position: absolute;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    display: inline;
+    margin-left: 15px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+#signup ul{
+    font-size: 20px;
+    position: absolute;
+   left: 80%;
+    display: inline;
+}
+#signup li{
+    display: inline;
+}
+#signup #btn1{
+    border: 1px solid red;
+    padding: 7px;
+    border-radius: 5px;
+    background-color:#D10A0E;
+}
+#signup #btn1 :hover{
+    color: #fff;
+    text-decoration: none;
+    border-top: 0;
+}
+#main-img{
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.wrap{
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(0,0,0);
+    color: #fff;
+    margin-top: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 90px;
+    top: 100px;
+    border: 2px solid #eee;
+
+}
+.wrap form{
+    margin-top: 50px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.wrap h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+    text-align: center;
+}
+.wrap button{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+.wrap button:hover{
+    background-color: #34495E;
+    color: #fff;
+}
+
